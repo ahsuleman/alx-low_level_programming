@@ -11,19 +11,19 @@
 
 int main(void)
 {
-	int i,j,k;
+	int i, j, k;
 
 	i = 48;
 	j = 48;
 	k = 48;
 
-	while  (i<58)
+	while  (i < 58)
 	{
 		j = i + 1;
-		while (j<58)
+		while (j < 58)
 		{
 			k = j + 1;
-			while (k<58)
+			while (k < 58)
 			{
 				putchar(i);
 				putchar(j);
@@ -39,5 +39,6 @@ int main(void)
 		}
 		i++;
 	}
+	putchar('\n');
 	return (0);
 }
