@@ -10,7 +10,7 @@
 
 void times_table(void)
 {
-	int row, column, tens, ones, x, products;
+	int row, column, tens, ones, product;
 
 	for (row = 0; row <= 9; row++)
 	{
@@ -40,5 +40,4 @@ void times_table(void)
 		}
 		_putchar('\n');
 	}
-	return 0;
 }
