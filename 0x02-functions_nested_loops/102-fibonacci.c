@@ -21,7 +21,7 @@ int main(void)
 		c = a + b;
 		if (i == 50)
 		{
-			printf("%lu", c);
+			printf("%lu\n", c);
 		}
 		else
 		{
