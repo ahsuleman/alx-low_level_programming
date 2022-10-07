@@ -12,7 +12,7 @@
 int main(void)
 {
 	int i;
-	unsigned long long int a, b, c;
+	unsigned long int a, b, c;
 
 	a = 0;
 	b = 1;
@@ -21,11 +21,11 @@ int main(void)
 		c = a + b;
 		if (i == 50)
 		{
-			printf("%llu", c);
+			printf("%lu", c);
 		}
 		else
 		{
-			printf("%llu, ", c);
+			printf("%lu, ", c);
 		}
 		a = b;
 		b = c;
