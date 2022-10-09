@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	unsigned long long int number = 612852475143;
-	unsigned long long int prime_factor;
+	unsigned long int number = 612852475143;
+	unsigned long int prime_factor;
 
 	for (prime_factor = 2; prime_factor <= number; prime_factor++)
 	{
