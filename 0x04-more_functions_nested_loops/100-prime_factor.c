@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	long int number = 612852475143;
-	long int prime_factor;
+	unsigned long int number = 612852475143;
+	unsigned long int prime_factor;
 
 	for (prime_factor = 2; prime_factor <= number; prime_factor++)
 	{
@@ -18,7 +18,7 @@ int main(void)
 			number = number / prime_factor;
 			if (number == 1)
 			{
-				printf("%llu\n", prime_factor);
+				printf("%lu\n", prime_factor);
 			}
 			else
 			{
