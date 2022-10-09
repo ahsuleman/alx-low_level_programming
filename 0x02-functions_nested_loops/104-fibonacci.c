@@ -16,7 +16,7 @@ int main(void)
 	for (i = 1; i <= 98; i++)
 	{
 		c = a + b;
-		if (i == 50)
+		if (i == 98)
 		{
 			printf("%lu\n", c);
 		}
