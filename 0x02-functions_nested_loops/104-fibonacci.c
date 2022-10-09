@@ -18,11 +18,11 @@ int main(void)
 		c = a + b;
 		if (i == 98)
 		{
-			printf("%lu\n", c);
+			printf("%g\n", c);
 		}
 		else
 		{
-			printf("%lu, ", c);
+			printf("%g, ", c);
 		}
 		a = b;
 		b = c;
